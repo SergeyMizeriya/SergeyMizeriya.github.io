@@ -1,0 +1,188 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: 'Alegreya SC', serif;
+	color: #0D1F2D;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+.main p {
+	padding: 40px 0;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 26px;
+}
+
+.fotorama {
+	max-width: 1500px;
+}
+
+.main {
+	padding-bottom: 50px;
+}
+
+.bigger {
+	font-size: 33px;
+}
+
+.line {
+	width: 70%;
+	max-width: 1500px;
+}
+
+.linediv {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 25px;
+
+}
+
+h2 {
+	font-size: 32px;
+}
+
+.start {
+	padding-top: 5px;
+}
+
+.about {
+	font-size: 20px;
+}
+
+.disc__name {
+	margin-top: 20px;
+	margin-bottom: 55px;
+}
+
+.fotorama {
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 65px;
+	font-size: 54px;
+}
+
+.disc, .main {
+	text-align: center;
+}
+
+.footer {
+	
+	height: 200px;
+}
+
+.footer p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.box {
+	width: 100%;
+}
+
+.box a {
+	color: black;
+}
+
+.box a:hover {
+	color: #0080FF;
+	transition: all 0.4s ease;
+
+}
+
+
+
+
+#back-top {
+	position: fixed;
+	bottom: 20px;
+	margin-left: 30px;
+}
+#back-top a {
+	width: 85px;
+	display: block;
+	text-align: center;
+	font: 12px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #587B7F;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+#back-top a:hover {
+	color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 85px;
+	height: 85px;
+	display: block;
+	margin-bottom: 7px;
+	background-size: 25px 25px;
+	background: grey url(up-arrow.png) no-repeat 50% 50%;
+
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: black;
+}
+
+
+@media only screen and (max-width: 1349px) {
+	.box {
+		visibility: none;
+	}
+}
+
+
+@media only screen and (max-width: 820px) {
+	p {
+	color: #0D1F2D;
+	}
+
+	#back-top {
+	position: fixed;
+	bottom: 10px;
+	margin-left: 15px;
+}
+
+	#back-top a {
+	width: 50px;
+	font-size: 9px;
+}
+
+#back-top span {
+	width: 50px;
+	height: 50px;
+	background-size: 50% 50%;
+}
+
+h1 {font-size: 34px;}
+
+.main p {font-size: 22px;}
+
+.bigger {font-size: 28px}
+}
+
+
+@media only screen and (max-width: 500px) {
+	p {
+		font-size: 15px;
+	}
+}
