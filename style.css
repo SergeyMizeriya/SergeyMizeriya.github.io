@@ -1,0 +1,645 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.slash-lakbi, .trend-lakbi {
+	font-family: 'Rubik', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+ul, li {
+    display: block;
+}
+
+a:hover {
+ 	transition: 0.3s ease;
+}
+
+
+/* стили Хедера */
+
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background-image: url(image/header/fon/x-large_main4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.header {
+	padding-top: 30px;
+}
+
+.nav {
+	padding-left: 55px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.nav li {
+	padding-left: 20px;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+
+.nav li a:hover {
+	color: #D8D8D8;
+}
+
+#sort-down {
+	width: 8px;
+	height: 8px;
+}
+
+.form input {
+	border:0;
+	border-bottom: 1px solid gray;
+}
+
+.header .form input {
+	border:0;
+	border-bottom: 1px solid gray;
+	width: 120px;
+}
+
+input::placeholder {
+	color: rgba(255, 255, 255, 0.502);
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+input,
+input:active,
+input:focus,
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+button img {
+	width: 12px;
+	height: 12px;
+}
+
+input, button {
+	background: transparent;
+}
+
+.pics {
+	padding-right: 40px;
+}
+
+.pics a {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.collection-name {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin-top: 250px;
+	margin-bottom: 70px;
+	font-size: 37px;
+	letter-spacing: 7px;
+}
+
+.collection a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	border: 1px solid white;
+	padding: 13px 20px;	
+	margin-bottom: 60px;
+}
+
+.collection a:hover {
+ 	background-color: #c6121e;
+ 	transition: 0.6s ease;
+}
+
+.slider-nav {
+	padding-bottom: 40px;
+}
+/* стили флекс элементов расположенных по-средине страницы  */
+
+.button-look-collection, .slider-nav, .instagram-line, .trend-line, .subscribe-button {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+
+/* стили раздела "Новинки" */
+
+
+
+.new {
+	background-image: url(image/1/fon/023.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.new .title {
+	text-transform: uppercase;
+	font-size: 40px;
+	padding-top: 250px;
+	letter-spacing: 15px;
+}
+
+.new img {
+	padding-bottom: 50px;
+}
+
+.button-look-new {
+	padding-bottom: 270px;
+}
+
+.button-look-new a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	border: 1px solid black;
+	padding: 13px 50px;	
+}
+
+.button-look-new a:hover {
+ 	background-color: #383245;
+ 	color: white;
+ 	transition: 0.6s ease;
+}
+
+
+/* стили раздела "Распродажа" */
+
+
+
+.sale {
+	background-image: url(image/2/fon/110.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.sale .title {
+	text-transform: uppercase;
+	font-size: 40px;
+	padding-top: 250px;
+	letter-spacing: 15px;
+}
+
+.sale img {
+	padding-bottom: 50px;
+}
+
+.button-look-sale {
+	padding-bottom: 300px;
+}
+
+.button-look-sale a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	border: 1px solid black;
+	padding: 13px 50px;	
+}
+
+.button-look-sale a:hover {
+ 	background-color: #FAFA0A;
+ 	transition: 0.6s ease;
+}
+
+
+
+/* стили раздела "Инстаграмм" */
+
+
+
+.slash-lakbi, .trend-lakbi {
+	font-size: 20px;	
+	text-transform: uppercase;
+  	padding-top: 60px;
+  	text-align: center;
+	letter-spacing: 7px;
+	font-weight: bold;
+}
+
+.instagram-line, .trend-line {
+	padding-bottom: 30px;
+}
+
+.black-hover-container {
+	margin-right: 10px;
+}
+
+.black-hover-container1 {
+	width: 200px;
+	height: 200px;
+	background-image: url(image/instagram/image/1.png);
+	background-size: cover;
+}
+
+.black-hover-container2 {
+	width: 200px;
+	height: 200px;
+	background-image: url(image/instagram/image/2.png);
+	background-size: cover;
+
+}
+
+.black-hover-container3 {
+	width: 200px;
+	height: 200px;
+	background-image: url(image/instagram/image/3.png);
+	background-size: cover;
+}
+
+.black-hover-container4 {
+	width: 200px;
+	height: 200px;
+	background-image: url(image/instagram/image/4.png);
+	background-size: cover;
+}
+
+.black-hover-container5 {
+	width: 200px;
+	height: 200px;
+	background-image: url(image/instagram/image/5.png);
+	background-size: cover;
+}
+
+.black-hover-container6 {
+	width: 200px;
+	height: 200px;
+	background-image: url(image/instagram/image/6.png);
+	background-size: cover;
+}
+
+.black-hover {
+	width: 200px;
+	height: 200px;
+	opacity: 0;
+	background-color: black;
+	transition: .5s ease;
+}
+
+.black-hover-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 50%;
+}
+
+.black-hover-info img {
+	width: 20px;
+	height: 20px;
+}
+
+.black-hover-info span {
+	font-size: 13px;
+	color: white;
+	padding-left: 6px;
+	padding-right: 10px;
+}
+
+.black-hover-container:hover .black-hover {
+	opacity: 0.7;
+	cursor:pointer;
+}
+
+.instagram-images {
+	display: flex;
+}
+
+.lakbi-present {
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.subscribe-form {
+	text-align: center;
+}
+
+form {
+	padding-left: 0;
+}
+
+.subscribe-form form {
+	width: ;
+}
+
+.form, .social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.flex-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.name-flex {
+	padding-right: 10px;
+}
+
+.name-flex label, .email-flex label {
+	padding-right: 150px;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: rgb(175, 175, 175);
+}
+
+.subscribe-form input::placeholder {
+	color: black;
+}
+
+.email-flex {
+	padding-left: 10px;
+}
+
+.button {
+	color: black;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+	border: 1px solid black;
+	padding: 13px 40px;	
+	margin-top: 35px;
+	margin-bottom: 70px;
+	cursor: pointer;
+}
+
+.button:hover {
+	box-shadow: 0 10px 10px -6px #777;
+	transition: 0.5s ease;
+}
+
+
+hr {
+    border: none; 
+    background-color: rgb(220, 220, 220);
+   	height: 2px;
+}
+
+
+
+/* стили раздела "Социальные сети" */
+
+
+
+.about-us {
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.social a {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background-color: rgb(57, 57, 57); 
+	margin: 0 7px;
+	margin-bottom: 60px;
+}
+
+.social a:hover {
+ 	background-color: rgb(220, 220, 220);
+ 	transition: 0.3s ease;
+}
+
+.insta-logo {
+	background-image: url(image/social/logo/instagram-symbol.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.fb-logo {
+	background-image: url(image/social/logo/facebook-letter-logo.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.vk-logo {
+	background-image: url(image/social/logo/vk-social-network-logo.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.lj-logo {
+	background-image: url(image/social/logo/if_Livejournal_1379443.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.pin-logo {
+	background-image: url(image/social/logo/if_Pinterest_1379442.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+
+
+/* стили раздела "Футер" */
+
+
+
+footer {
+	background-color: rgb(248, 248, 248);
+}
+
+.odo-unp {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.mail {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+
+
+/*****************/
+/* медиа запросы */
+
+
+
+@media only screen and (max-width: 1263px) {
+		
+	.nav {
+		padding-left: 10px;
+	}
+
+	.nav li {
+		padding-left: 15px;
+	}
+
+	.nav li a {
+		font-size: 9px;
+	}
+
+	form {
+		padding-right: 0px;
+	}
+
+	.pics {
+		padding-right: 50px;
+	}
+
+	.pics a {
+		padding-right: 20px;
+		padding-left: 5px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+	.logo__lakbi {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+	.nav li {
+		padding-left: 10px;
+	}
+
+	.nav li a {
+		font-size: 10px;
+	}
+
+	.nav {
+		padding-left: 25px;
+		padding-top: 20px;
+	}
+
+	.form, .pics {
+		padding-top: 20px;
+	}
+
+	.pics a {
+		padding-right: 35px;
+	}
+
+	.pics img {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+
+
+	.nav {
+		padding-left: 0px;
+	}
+
+	.nav li {
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+
+	.nav li a {
+		font-size: 15px;
+	}
+
+	.new {
+		background-size: cover;
+		background-position: 15% 50%;
+	}
+
+	.sale {
+		background-size: cover;
+		background-position: 70% 50%;
+	}
+
+	form {
+		padding-right: 0px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	.pics {
+		padding-right: 0px;
+	}
+
+	.pics a {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+
+	.pics a:nth-child(2) {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
+	.pics img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.new .title {
+		font-size: 30px;
+		letter-spacing: 5px;
+	}
+	
+	.sale .title {
+		font-size: 30px;
+		letter-spacing: 5px;
+	}
+
+	.button-look-sale a, .button-look-new a, .collection a {
+		font-size: 17px;
+	}
+
+	.email-flex label {
+		padding-right: 145px;
+	}
+
+	.name-flex label {
+		padding-right: 155px;
+	}
+	
+	.name-flex label, .email-flex label {
+		font-size: 10px;
+	}
+}
