@@ -194,31 +194,45 @@ h1 {
 
 	#back-top {
 	position: fixed;
-	bottom: 10px;
+	bottom: 15px;
 	margin-left: 15px;
-}
+	}
 
 	#back-top a {
 	width: 50px;
 	font-size: 9px;
-}
+	}
 
-#back-top span {
+	#back-top span {
 	width: 50px;
 	height: 50px;
 	background-size: 50% 50%;
-}
+	}	
 
-h1 {font-size: 34px;}
+	h1 {
+	font-size: 34px;
+	}
 
-.main p {font-size: 22px;}
+	.main p {
+	font-size: 22px;
+	}
 
-.bigger {font-size: 28px}
+	.bigger {
+	font-size: 28px
+	}
 }
 
 
 @media only screen and (max-width: 500px) {
-	p {
-		font-size: 15px;
+	h1 {
+	font-size: 28px;
+	}
+
+	.main p, .footer p {
+	font-size: 15px;
+	}
+
+	.bigger {
+	font-size: 20px
 	}
 }
