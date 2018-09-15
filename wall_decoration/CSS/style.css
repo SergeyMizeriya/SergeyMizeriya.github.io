@@ -182,7 +182,7 @@ h1 {
 
 @media only screen and (max-width: 1349px) {
 	.box {
-		visibility: none;
+		display: none;
 	}
 }
 
