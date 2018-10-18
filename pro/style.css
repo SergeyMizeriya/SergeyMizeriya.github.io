@@ -295,6 +295,15 @@ h4 {
 	font-size: 0.9em;
 }
 
+.review {
+	font-style: italic;
+}
+
+.review-author {
+	font-size: 0.8em;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
 
 
 
@@ -334,8 +343,12 @@ footer {
 	.download-button {
 		position: static;
 		text-align:center;
-		margin-top: 20px;
+		margin-top: 25px;
+		margin-bottom: 25px;
 	}
 
-
+	.text-container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
 }
