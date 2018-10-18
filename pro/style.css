@@ -124,7 +124,7 @@ h4 {
 
 
 .lesson {
-	height: 250px;
+	min-height: 250px;
 }
 .lesson:hover {
 	/*box-shadow: 0px 0px 10px 1px rgba(212,212,212,1);*/
@@ -225,7 +225,7 @@ h4 {
 }
 .lesson-about {
 	align-self: center;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 .lesson-name-about {
 	display: flex;
@@ -304,4 +304,38 @@ h4 {
 footer {
 	height: 120px;
 	background-color: lightgray;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+	.lesson-text {
+		min-height: 180px;
+	}
+
+	.lesson-image {
+		min-height: 270px;
+	}
+	.lesson-name-about {
+		display: block;
+	}	
+	.lesson-about {
+		align-self:auto;
+		padding-left: 30px;
+		font-size: 0.9em;
+	}
+	.lesson-button {
+		position: static;
+		text-align:center;
+	}
+
+	.download-button {
+		position: static;
+		text-align:center;
+		margin-top: 20px;
+	}
+
+
 }
