@@ -1,0 +1,307 @@
+body {
+	padding:0;
+	margin:0;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: blue;
+	transition: 0.5s ease;
+}
+
+.container {
+	padding: 0;
+	max-width: 940px; 
+}
+
+.main {
+	width: 100vw;
+	height: 98vh;
+	background: url(img/setwalls.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.pdf-main-1 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-1.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-2 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-2.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-3 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-3.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-4 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-4.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-5 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-5.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-6 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-6.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-7 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-7.png) center center no-repeat;
+	background-size: cover;
+
+}
+.pdf-main-8 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-8.png) center center no-repeat;
+	background-size: cover;
+
+}
+.pdf-main-9 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-9.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-10 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-10.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-11 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-11.png) center center no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+.content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h1 {
+	text-align:center;
+	margin: 50px 0 0 0;
+}
+
+h3 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+.lesson {
+	height: 250px;
+}
+.lesson:hover {
+	/*box-shadow: 0px 0px 10px 1px rgba(212,212,212,1);*/
+	box-shadow: 0px 0px 13px 2px rgba(12,112,242,1);
+	transition: 0.15s ease;
+}
+.lesson-image {
+	background-color: green;
+	padding: 0;
+}
+
+.image-1 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-1.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-2 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-2.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-3 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-3.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-4 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-4.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-5 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-5.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-6 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-6.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-7 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-7.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-8 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-8.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-9 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-9.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-10 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-10.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-11 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-11.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.lesson-image img {
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.lesson-name {
+	padding: 10px 0 10px 30px;
+	font-size: 1.5em;
+}
+.lesson-about {
+	align-self: center;
+	opacity: 0.6;
+}
+.lesson-name-about {
+	display: flex;
+	justify-content: space-between;
+}
+
+.lesson-text {
+	padding: 10px 0 10px 30px;
+}
+
+.lesson-button {
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+}
+
+.lesson-button a {
+	padding:5px 10px;
+	color: #0c70f2;
+	border: 2px solid #0c70f2;
+	border-radius: 3px;
+
+}
+
+.download-button a:hover {
+	background-color: #0c70f2;
+	color: white;
+	transition: 0.3s ease;
+}
+
+.download-button {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+}
+
+.download-button a {
+	padding:5px 10px;
+	color: #0c70f2;
+	border: 2px solid #0c70f2;
+	border-radius: 3px;
+
+}
+
+.lesson-button a:hover {
+	background-color: #0c70f2;
+	color: white;
+	transition: 0.3s ease;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.stih {
+	white-space: pre-wrap;
+	text-align: center;
+}
+
+.clear-link {
+	color: blue;
+	text-decoration: underline;
+}
+
+.margin-left-text {
+	margin-left: 40px;
+	font-size: 0.9em;
+}
+
+
+
+
+
+
+
+footer {
+	height: 120px;
+	background-color: lightgray;
+}
