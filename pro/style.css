@@ -27,6 +27,63 @@ a:hover {
 	background-size: cover;
 }
 
+.program {
+	margin-top: 25%;
+	text-align:center;
+	font-size: 5em;
+	line-height: 60px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+
+/* Современные браузеры, кроме Chrome, Opera, Safari */
+  @keyframes go-left-right {   /* назовём анимацию: "go-left-right" */
+    from {
+      top: 0px;               /* от: left: 0px */
+    }
+    to {
+      top: 30px; /* до: left: 100%-50px */
+    }
+  }
+
+  /* Префикс для Chrome, Opera, Safari */
+  @-webkit-keyframes go-left-right {
+    from {
+      top: 0px;
+    }
+    to {
+      top: 30px;
+    }
+  }
+
+  .progress {
+    /* применить анимацию go-left-right */
+    /* продолжительность 3s */
+    /* количество раз: бесконечное (infinite) */
+    /* менять направление анимации каждый раз (alternate) */
+    animation: go-left-right 0.65s infinite alternate;
+    -webkit-animation: go-left-right 0.65s infinite alternate;
+
+    position: relative;
+   /* border: 2px solid green;
+    width: 50px;
+    
+    background: lime;*/
+    background-color: transparent;
+    font-size: 70px;
+    height: 70px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.progress i {
+	text-align:center;
+}
+
 .pdf-main-1 {
 	width: 100vw;
 	height: 95vh;
@@ -315,6 +372,20 @@ footer {
 	background-color: lightgray;
 }
 
+#cont {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  z-index: 9999;
+}
+
+#progress {
+  background: #0c70f2;
+  height: 0%;
+  width: 6px;
+}
 
 
 
@@ -351,4 +422,14 @@ footer {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
+
+	.program {
+	margin-top: 55%;
+	text-align:center;
+	font-size: 3.5em;
+	line-height: 45px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
 }
