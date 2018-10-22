@@ -1,0 +1,435 @@
+body {
+	padding:0;
+	margin:0;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: blue;
+	transition: 0.5s ease;
+}
+
+.container {
+	padding: 0;
+	max-width: 940px; 
+}
+
+.main {
+	width: 100vw;
+	height: 98vh;
+	background: url(img/setwall.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.program {
+	margin-top: 25%;
+	text-align:center;
+	font-size: 5em;
+	line-height: 60px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+
+/* Современные браузеры, кроме Chrome, Opera, Safari */
+  @keyframes go-left-right {   /* назовём анимацию: "go-left-right" */
+    from {
+      top: 0px;               /* от: left: 0px */
+    }
+    to {
+      top: 30px; /* до: left: 100%-50px */
+    }
+  }л
+
+  /* Префикс для Chrome, Opera, Safari */
+  @-webkit-keyframes go-left-right {
+    from {
+      top: 0px;
+    }
+    to {
+      top: 30px;
+    }
+  }
+
+  .progress {
+    /* применить анимацию go-left-right */
+    /* продолжительность 3s */
+    /* количество раз: бесконечное (infinite) */
+    /* менять направление анимации каждый раз (alternate) */
+    animation: go-left-right 0.65s infinite alternate;
+    -webkit-animation: go-left-right 0.65s infinite alternate;
+
+    position: relative;
+   /* border: 2px solid green;
+    width: 50px;
+    
+    background: lime;*/
+    background-color: transparent;
+    font-size: 70px;
+    height: 70px;
+    color: white;
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+.progress i {
+	text-align:center;
+}
+
+.pdf-main-1 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-1.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-2 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-2.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-3 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-3.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-4 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-4.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-5 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-5.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-6 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-6.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-7 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-7.png) center center no-repeat;
+	background-size: cover;
+
+}
+.pdf-main-8 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-8.png) center center no-repeat;
+	background-size: cover;
+
+}
+.pdf-main-9 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-9.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-10 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-10.png) center center no-repeat;
+	background-size: cover;
+}
+.pdf-main-11 {
+	width: 100vw;
+	height: 95vh;
+	background: url(img/lesson-images/lesson-11.png) center center no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+.content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h1 {
+	text-align:center;
+	margin: 50px 0 0 0;
+}
+
+h3 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+.lesson {
+	min-height: 250px;
+}
+.lesson:hover {
+	/*box-shadow: 0px 0px 10px 1px rgba(212,212,212,1);*/
+	box-shadow: 0px 0px 13px 2px rgba(12,112,242,1);
+	transition: 0.15s ease;
+}
+.lesson-image {
+	background-color: green;
+	padding: 0;
+}
+
+.image-1 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-1.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-2 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-2.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-3 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-3.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-4 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-4.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-5 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-5.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-6 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-6.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-7 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-7.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-8 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-8.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-9 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-9.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-10 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-10.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.image-11 {
+	height: 100%;
+	width: 100%;
+	background: url(img/lesson-images/lesson-11.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.lesson-image img {
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.lesson-name {
+	padding: 10px 0 10px 30px;
+	font-size: 1.5em;
+}
+.lesson-about {
+	align-self: center;
+	opacity: 0.8;
+}
+.lesson-name-about {
+	display: flex;
+	justify-content: space-between;
+}
+
+.lesson-text {
+	padding: 10px 0 10px 30px;
+}
+
+.lesson-button {
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+}
+
+.lesson-button a {
+	padding:5px 10px;
+	color: #0c70f2;
+	border: 2px solid #0c70f2;
+	border-radius: 3px;
+
+}
+
+.download-button a:hover {
+	background-color: #0c70f2;
+	color: white;
+	transition: 0.3s ease;
+}
+
+.download-button {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+}
+
+.download-button a {
+	padding:5px 10px;
+	color: #0c70f2;
+	border: 2px solid #0c70f2;
+	border-radius: 3px;
+
+}
+
+.lesson-button a:hover {
+	background-color: #0c70f2;
+	color: white;
+	transition: 0.3s ease;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.stih {
+	white-space: pre-wrap;
+	text-align: center;
+}
+
+.clear-link {
+	color: blue;
+	text-decoration: underline;
+}
+
+.margin-left-text {
+	margin-left: 40px;
+	font-size: 0.9em;
+}
+
+.review {
+	font-style: italic;
+}
+
+.review-author {
+	font-size: 0.8em;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+footer {
+	height: 120px;
+	background-color: lightgray;
+}
+
+#cont {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  z-index: 9999;
+}
+
+#progress {
+  background: #0c70f2;
+  height: 0%;
+  width: 6px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+	.lesson-text {
+		min-height: 180px;
+	}
+
+	.lesson-image {
+		min-height: 270px;
+	}
+	.lesson-name-about {
+		display: block;
+	}	
+	.lesson-about {
+		align-self:auto;
+		padding-left: 30px;
+		font-size: 0.9em;
+	}
+	.lesson-button {
+		position: static;
+		text-align:center;
+	}
+
+	.download-button {
+		position: static;
+		text-align:center;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.text-container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.program {
+	margin-top: 55%;
+	text-align:center;
+	font-size: 3.5em;
+	line-height: 45px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+}
