@@ -291,7 +291,6 @@ h4 {
 	opacity: 0.8;
 }
 .lesson-name-about {
-	min-height: 250px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -405,9 +404,11 @@ footer {
 	.lesson-image {
 		min-height: 270px;
 	}
+	.lesson-info {
+		min-height: 250px;
+	}
 	.lesson-name-about {
 		display: block;
-		min-height: 250px;
 	}	
 	.lesson-about {
 		align-self:auto;
