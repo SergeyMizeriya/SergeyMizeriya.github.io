@@ -407,6 +407,7 @@ footer {
 	}
 	.lesson-name-about {
 		display: block;
+		min-height: 250px;
 	}	
 	.lesson-about {
 		align-self:auto;
