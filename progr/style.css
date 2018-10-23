@@ -23,6 +23,7 @@ a:hover {
 .main {
 	width: 100vw;
 	height: 98vh;
+	min-height: 600px;
 	background: url(img/setwall.jpg) center center no-repeat;
 	background-size: cover;
 }
@@ -191,6 +192,7 @@ h4 {
 .lesson-image {
 	background-color: green;
 	padding: 0;
+	min-height: 300px;
 }
 
 .image-1 {
@@ -424,7 +426,7 @@ footer {
 	}
 
 	.program {
-	margin-top: 55%;
+	margin-top: 35%;
 	text-align:center;
 	font-size: 3.5em;
 	line-height: 45px;
