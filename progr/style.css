@@ -281,7 +281,9 @@ h4 {
 	overflow: hidden;
 	margin: 0 auto;
 }
-
+.lesson-info {
+	min-height: 200px;
+}
 .lesson-name {
 	padding: 10px 0 10px 30px;
 	font-size: 1.5em;
@@ -404,8 +406,7 @@ footer {
 	.lesson-image {
 		min-height: 270px;
 	}
-	.lesson-info {
-	}
+	
 	.lesson-name-about {
 		display: block;
 	}	
