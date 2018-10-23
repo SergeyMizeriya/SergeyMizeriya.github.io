@@ -291,6 +291,7 @@ h4 {
 	opacity: 0.8;
 }
 .lesson-name-about {
+	min-height: 250px;
 	display: flex;
 	justify-content: space-between;
 }
