@@ -4,11 +4,11 @@
      var plitka_value = $('#plitka_value').val();
      plitka_value = parseInt(plitka_value) * 14;
      var bordur_value = $('#bordur_value').val();
-     bordur_value = parseInt(bordur_value) * 1;
+     bordur_value = parseInt(bordur_value) * 6;
      var podrez_value = $('#podrez_value').val();
-     podrez_value = parseInt(podrez_value) * 1;
+     podrez_value = parseInt(podrez_value) * 6;
      var podmaz_value = $('#podmaz_value').val();
-     podmaz_value = parseInt(podmaz_value) * 1;
+     podmaz_value = parseInt(podmaz_value) * 2;
      if(isNaN(plitka_value)) plitka_value = 0;
      if (isNaN(bordur_value)) bordur_value = 0;
      if (isNaN(podrez_value)) podrez_value = 0;
@@ -23,5 +23,3 @@
      $("#calcresult").text(sum);
 
    }).keyup();
-
-   
