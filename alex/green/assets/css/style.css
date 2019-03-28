@@ -338,6 +338,21 @@ nav ul li {
 }
 
 
+#calc_link {
+    position: fixed;
+    right: 50px;
+    top: 200px;
+    background-color: transparent;
+    width: 170px;
+    height: 170px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+
+
+
 .main_home #consulbutton {
   padding: 20px 35px;
   margin-top: 35px;
@@ -356,6 +371,12 @@ nav ul li {
   transform: scale(1.1);
   background-color: rgba(43,166,68,1);
   transition: 0.5s;
+}
+
+#consulbutton,
+#consulbutton:active,
+#consulbutton:focus {
+    outline: none;
 }
 
 .overlay_popup {
@@ -583,11 +604,22 @@ textarea:focus {
   min-height: 155px;
 }
 
-/*.plitka-input {
-  border: 1px solid #5990ff;
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px 1px #5990ff;
-}*/
+#plitka_value, #bordur_value, #podmaz_value, #podrez_value {
+    border: 1px solid blue;
+    border-radius: 5px;
+    /* background-color: white; */
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(38,0,255,1);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(38,0,255,1);
+    box-shadow: 0px 0px 5px 1px rgba(38,0,255,1);
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+
+#plitka_value:focus, #bordur_value:focus, #podmaz_value:focus, #podrez_value:focus {
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(38,0,255,1);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(38,0,255,1);
+    box-shadow: 0px 0px 5px 3px rgba(38,0,255,1);
+}
 .price_number {
   font-size: 1.8rem;
 }
